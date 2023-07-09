@@ -30,7 +30,7 @@ const header = () => {
                 </div>
             </div>
             <div>
-                <img src="./foto.png" />
+                <img src="./Foto.png" />
             </div>
         </div>
     </div>
