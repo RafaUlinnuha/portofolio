@@ -8,7 +8,7 @@ const cardBlue = (props) => {
         <div className="flex flex-wrap h-72 lg:h-80 py-6 lg:p-8 xl:mx-6 px-6 md:px-8 bg-[#4D96FF] rounded-lg transition ease-in-out delay-150 hover:scale-105 duration-300 shadow-md order-last md:order-first">
             <h1 className="text-2xl lg:text-3xl text-white font-bold">{props.name}</h1>
             <p className="font-light text-white text-sm lg:text-base">{props.desc}</p>
-            <a href="" className="text-center w-3/4 md:w-2/3 py-2 bg-slate-50 text-[#4D96FF] rounded-full mt-auto mx-auto">
+            <a href={props.link} className="text-center w-3/4 md:w-2/3 py-2 bg-slate-50 text-[#4D96FF] rounded-full mt-auto mx-auto">
                 <div className="flex flex-wraps space-x-2 justify-center items-center">
                 <span>See Detail</span>
                 <Icon icon="material-symbols:arrow-forward-rounded" className="text-xl" />
